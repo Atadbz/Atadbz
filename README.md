@@ -5,7 +5,7 @@
 <h3 align="center">AI Engineer & Full-Stack Developer</h3>
 
 <p align="center">
-  <em>Specializing in AI, Computer Vision, Robotics & Modern Web Technologies</em>
+  <em>Specializing in AI, Computer Vision, Robotics</em>
 </p>
 
 ---
@@ -13,7 +13,7 @@
 ## 🚀 Current Focus
 
 - 🔭 **Current Project**: Diabetic-brain disease diagnosis using deep learning
-- 🌱 **Learning**: Advanced AI architectures and distributed systems
+- 🌱 **Learning**: Advanced AI architectures 
 - 👯 **Collaboration**: Open to computer vision projects and robotics initiatives
 - 📫 **Contact**: atadiibazar@gmail.com
 
