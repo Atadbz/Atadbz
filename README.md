@@ -46,29 +46,7 @@
   </a>
 </p>
 
-### Web Development & Backend
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts" height="50" alt="typescript"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=nextjs" height="50" alt="nextjs"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=tailwind" height="50" alt="tailwindcss"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=nestjs" height="50" alt="nestjs"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=graphql" height="50" alt="graphql"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="50" alt="storybook"/>
-</p>
-
 ### Systems & Cloud
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=go" height="50" alt="go"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=rust" height="50" alt="rust"/>
-  <img width="12"/>
-  <img src="https://skillicons.dev/icons?i=aws" height="50" alt="aws"/>
-  <img width="12"/>
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="50" height="50"/>
   </a>
