@@ -83,16 +83,6 @@
 
 ---
 
-## 📈 Contribution Activity
-
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/atadbz/atadbz/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/atadbz/atadbz/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/atadbz/atadbz/output/pacman-contribution-graph.svg">
-</picture>
-
----
-
 ## 🌐 Connect With Me
 
 <p align="center">
@@ -102,19 +92,6 @@
   <a href="https://instagram.com/ata__dibazar" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram"/>
   </a>
-  <a href="https://twitter.com/yourusername" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter"/>
-  </a>
-  <a href="https://discord.com/users/youruserid" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord"/>
-  </a>
-  <a href="https://dev.to/yourusername" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="devto"/>
-  </a>
-  <a href="https://twitch.tv/yourusername" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch"/>
-  </a>
-</p>
 
 ---
 
