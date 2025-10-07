@@ -1,0 +1,41 @@
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+      
+      .glitch {
+        font-family: 'Press Start 2P', 'Courier New', monospace;
+        font-size: 36px;
+        font-weight: 400;
+      }
+    </style>
+    
+    <filter id="glitch-filter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="120" fill="#000000"/>
+  
+  <!-- Glitch layers -->
+  <text class="glitch" x="50%" y="50%" fill="#ff0000" text-anchor="middle" dominant-baseline="middle" opacity="0.8">
+    ATA DIBAZAR
+    <animateTransform attributeName="transform" type="translate" values="0,0; 2,0; -2,0; 0,0" dur="0.2s" repeatCount="indefinite"/>
+  </text>
+  
+  <text class="glitch" x="50%" y="50%" fill="#00ff00" text-anchor="middle" dominant-baseline="middle" opacity="0.8">
+    ATA DIBAZAR
+    <animateTransform attributeName="transform" type="translate" values="0,0; -2,0; 2,0; 0,0" dur="0.3s" repeatCount="indefinite"/>
+  </text>
+  
+  <text class="glitch" x="50%" y="50%" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">
+    ATA DIBAZAR
+  </text>
+  
+  <!-- Scanline effect -->
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#00ff00" stroke-width="2" opacity="0.3">
+    <animate attributeName="y1" values="0;120;0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="0;120;0" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>
