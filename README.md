@@ -1,8 +1,8 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/Atadbz/Atadbz/main/name.svg" alt="Ata Dibazar" />
 </h1>
-<h1 align="center">Hey 👋 I'm Ata</h1>
-<h3 align="center">AI Engineer & Full-Stack Developer</h3>
+
+<h3 align="center">AI Engineer</h3>
 
 <p align="center">
   <em>Specializing in AI, Computer Vision, Robotics</em>
