@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="banner.svg" alt="Ata Dibazar, AI Engineer" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+    <img src="banner-light.svg" alt="Ata Dibazar, AI Engineer" width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -9,8 +12,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/ata-dibazar">LinkedIn</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Atadbz">GitHub</a>
-  &nbsp;·&nbsp;
   <a href="mailto:atadibazar2016@gmail.com">Email</a>
 </p>
 
@@ -19,7 +20,7 @@
 ## Research
 
 **Explainable AI for brain tumor MRI.**
-My current work asks which explanation method should be trusted for which image. I study a mask-free approach that selects an explanation method per image. The work spans two papers that are not yet published, so the code is private.
+My current work asks which explanation method best highlights the tumor in each image. I study an approach that selects a method per image and needs no tumor mask or segmentation model at inference. The work spans two papers that are not yet published, so the code is private.
 
 <br>
 
@@ -27,22 +28,24 @@ My current work asks which explanation method should be trusted for which image.
 
 | | |
 |---|---|
-| **Explainable AI** | Evaluating and selecting explanation methods for medical image classifiers |
+| **Explainable AI** | Evaluating and selecting explanation methods for medical image classifiers, currently brain tumor MRI |
 | **Computer vision** | Detection and classification, from classical methods to deep learning |
-| **Robotics and embedded** | Arduino-based control systems and sensing |
+| **Robotics and embedded** | Arduino-based control and sensing |
 
 <br>
 
 ## How I work
 
-Every repository on this account follows one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md).
+My project repositories follow one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md). Active research keeps its working layout until it is archived.
 
 | | |
 |---|---|
-| **Structure** | One layout everywhere: `src/` for final code, `experiments/` for ordered attempts, `docs/` for notes |
 | **Documentation** | One README format: overview, contents, usage, notes |
-| **Data and privacy** | No credentials or personal data in public code; unpublished research stays private |
+| **Structure** | Archived projects share one layout: `src/` for final code, `experiments/` for ordered attempts, `docs/` for notes |
+| **Data and privacy** | Unpublished research and personal data stay private; archived code keeps its original values, listed in its notes |
 | **Traceability** | Files are moved and renamed, never silently rewritten, so history stays readable |
+
+The two public repositories are early projects from 2023 to 2025, archived as read-only references. Current research code is private.
 
 <br>
 
@@ -53,5 +56,5 @@ Python, PyTorch, TensorFlow, OpenCV, scikit-learn, pandas, MATLAB, C, C#, Arduin
 <br>
 
 <p align="center">
-  <sub>Open to research collaboration in medical imaging and explainable AI.</sub>
+  <sub>Open to research collaboration and AI engineering roles in medical imaging and explainable AI.</sub>
 </p>

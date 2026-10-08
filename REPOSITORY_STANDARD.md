@@ -1,12 +1,17 @@
 # Repository Standard
 
-Every repository on this account follows the same rules, so any project can be read, run, and reviewed in the same way.
+The rules my project repositories follow, so any project can be read and reviewed in the same way.
 
-<sub>VERSION 1.0 · OCTOBER 2026</sub>
+<sub>VERSION 1.1 · OCTOBER 2026</sub>
 
-## 1. Layout
+## 1. Scope
 
-Each repository uses only the folders it needs, always with these names and purposes.
+- **Archived** repositories follow every rule below, including the layout.
+- **Active** repositories follow the README, data, and metadata rules at once. They keep their working layout until they are archived, so ongoing work never breaks.
+
+## 2. Layout
+
+Each archived repository uses only the folders it needs, always with these names and purposes.
 
 | Path | Purpose |
 |---|---|
@@ -19,50 +24,51 @@ Each repository uses only the folders it needs, always with these names and purp
 | `data/` | Local data only; raw data is never committed |
 | `requirements.txt` | Python dependencies used by the code |
 
-## 2. Naming
+## 3. Naming
 
-- File and folder names are lowercase `snake_case`.
+- File and folder names are lowercase `snake_case`. Conventional files keep their usual names: `README.md`, `LICENSE`, `.env.example`, and this document.
 - Every file carries the extension that matches its content.
 - Attempts are numbered in the order they were made: `01_baseline.py`, `02_edge_detection.py`.
 - The final version has a descriptive name and no number, so it is clear which file to use.
-- Arduino sketches follow the Arduino convention: `src/<sketch_name>/<sketch_name>.ino`.
+- Arduino sketches follow the Arduino convention, `<sketch_name>/<sketch_name>.ino`, inside `src/` or `experiments/`.
 
-## 3. README
+## 4. README
 
-Every README has the same sections, in the same order:
+Every README uses these parts, in this order:
 
 1. Title and a one-sentence summary
 2. A metadata line: category, year, and stack
 3. **Overview**: the problem, the approach, and what the files contain
-4. **Contents**: every top-level file and folder except the README itself, with one line each
-5. **Usage**: how to install and run, when the code is runnable
+4. **Contents**: one short entry for every top-level file and folder, except the README itself and dotfiles
+5. **Usage**: how to install and run; left out when there is nothing to run
 6. **Notes**: status and known limitations
+7. A closing line that links to this standard
 
 Categories: `RESEARCH`, `RESEARCH NOTES`, `APPLIED PROJECT`, `HARDWARE PROJECT`, `ARCHIVED COURSEWORK`, `ARCHIVED EXPERIMENT`, `WORKING NOTES`.
 
-## 4. Data and privacy
+## 5. Data and privacy
 
-- Credentials, tokens, and access codes are never committed; configuration comes from a local `.env`, with only `.env.example` in the repository.
+- New code reads credentials, tokens, and access codes from a local `.env`; only `.env.example` is committed.
 - Personal, patient, and institutional data never appear in a public repository.
 - Unpublished research stays private until publication; public pages describe it at topic level only.
 
-## 5. Reproducibility
+## 6. Reproducibility
 
 - Dependencies are listed in `requirements.txt` or the project's own manifest.
 - Any result stated in a README is produced by code in the same repository.
-- Paths to local data are documented in the README rather than hidden in code.
+- Paths to local data are documented in the README rather than left for the reader to discover.
 
-## 6. Change history
+## 7. Change history
 
 - Work happens on branches; `main` holds a reviewed state.
 - Files are renamed and moved with `git mv`, never deleted and re-added, so their history stays traceable.
-- Older code is kept as written; it is reorganized and documented, not silently rewritten.
+- Archived code is kept as written. Where it predates sections 5 and 6, for example hardcoded paths or placeholder codes, its README Notes say so.
 
-## 7. Description and topics
+## 8. Description and topics
 
 - The About description follows one pattern: **what it is, then how**, in under 100 characters, with no trailing period.
-  Example: `Billboard detection in street images using classical edge detection and OpenCV`
-- Topics come from a fixed vocabulary, two to six per repository, never padded, with exactly one status topic, so related work groups together:
+  Example: `Green signboard detection and alignment in photos using OpenCV color masking and contours`
+- Topics come from a fixed vocabulary, two to six per repository, never padded, so related work groups together:
 
 | Group | Topics |
 |---|---|
@@ -71,9 +77,11 @@ Categories: `RESEARCH`, `RESEARCH NOTES`, `APPLIED PROJECT`, `HARDWARE PROJECT`,
 | Stack | `python`, `pytorch`, `tensorflow`, `opencv`, `scikit-learn`, `arduino`, `web-application` |
 | Status | `research`, `applied-project`, `coursework`, `archived` |
 
-## 8. Status
+- Every repository carries exactly one status topic. An archived repository always uses `archived`, whatever its category.
 
-- **Active**: under development; structure may change.
+## 9. Status
+
+- **Active**: under development; layout may change.
 - **Archived**: finished or superseded; kept as a read-only reference.
 
-Repositories created before this standard (2023 to 2025) were reorganized to follow it in October 2026. Their code is unchanged; only file names, locations, and documentation were updated.
+Repositories that existed before this standard were brought in line with it in October 2026. Their code is unchanged: file names, locations, and documentation were updated, and a `requirements.txt` was added where one was missing.

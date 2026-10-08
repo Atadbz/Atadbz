@@ -1,13 +1,8 @@
 <svg width="800" height="140" viewBox="0 0 800 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ata Dibazar, AI Engineer">
   <style>
-    .name { font: 300 38px 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 12px; fill: #1f2328; }
+    .name { font: 400 38px 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 12px; fill: #1f2328; }
     .role { font: 400 13px 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 5px; fill: #656d76; }
     .rule { stroke: #8c959f; stroke-width: 1; }
-    @media (prefers-color-scheme: dark) {
-      .name { fill: #f0f6fc; }
-      .role { fill: #9198a1; }
-      .rule { stroke: #6e7681; }
-    }
   </style>
   <text class="name" x="406" y="62" text-anchor="middle">ATA DIBAZAR</text>
   <line class="rule" x1="360" y1="86" x2="440" y2="86"/>
