@@ -34,7 +34,7 @@ Every README has the same sections, in the same order:
 1. Title and a one-sentence summary
 2. A metadata line: category, year, and stack
 3. **Overview**: the problem, the approach, and what the files contain
-4. **Contents**: every top-level file and folder, with one line each
+4. **Contents**: every top-level file and folder except the README itself, with one line each
 5. **Usage**: how to install and run, when the code is runnable
 6. **Notes**: status and known limitations
 
@@ -62,14 +62,14 @@ Categories: `RESEARCH`, `RESEARCH NOTES`, `APPLIED PROJECT`, `HARDWARE PROJECT`,
 
 - The About description follows one pattern: **what it is, then how**, in under 100 characters, with no trailing period.
   Example: `Billboard detection in street images using classical edge detection and OpenCV`
-- Topics come from a fixed vocabulary, four to six per repository, so related work groups together:
+- Topics come from a fixed vocabulary, two to six per repository, never padded, with exactly one status topic, so related work groups together:
 
 | Group | Topics |
 |---|---|
-| Field | `explainable-ai`, `medical-imaging`, `computer-vision`, `robotics`, `data-analysis`, `machine-learning` |
-| Method | `deep-learning`, `image-processing`, `object-detection`, `classification`, `decision-trees` |
+| Field | `explainable-ai`, `medical-imaging`, `computer-vision`, `robotics`, `embedded-systems`, `data-analysis`, `machine-learning` |
+| Method | `deep-learning`, `image-processing`, `object-detection`, `classification`, `decision-trees`, `llm-agents` |
 | Stack | `python`, `pytorch`, `tensorflow`, `opencv`, `scikit-learn`, `arduino`, `web-application` |
-| Status | `research`, `coursework`, `archived` |
+| Status | `research`, `applied-project`, `coursework`, `archived` |
 
 ## 8. Status
 
