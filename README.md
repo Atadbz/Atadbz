@@ -10,6 +10,8 @@
   <a href="https://linkedin.com/in/ata-dibazar">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Atadbz">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:atadibazar2016@gmail.com">Email</a>
 </p>
 
 <br>
