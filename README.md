@@ -19,7 +19,7 @@
 ## Research
 
 **Explainable AI for brain tumor MRI.**
-My current work asks which explanation method should be trusted for which image. I study a mask-free approach that selects an explanation method per image. The work is in preparation, so the code is private.
+My current work asks which explanation method should be trusted for which image. I study a mask-free approach that selects an explanation method per image. The work spans two papers that are not yet published, so the code is private.
 
 <br>
 
@@ -30,6 +30,19 @@ My current work asks which explanation method should be trusted for which image.
 | **Explainable AI** | Evaluating and selecting explanation methods for medical image classifiers |
 | **Computer vision** | Detection and classification, from classical methods to deep learning |
 | **Robotics and embedded** | Arduino-based control systems and sensing |
+
+<br>
+
+## How I work
+
+Every repository on this account follows one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md).
+
+| | |
+|---|---|
+| **Structure** | One layout everywhere: `src/` for final code, `experiments/` for ordered attempts, `docs/` for notes |
+| **Documentation** | One README format: overview, contents, usage, notes |
+| **Data and privacy** | No credentials or personal data in public code; unpublished research stays private |
+| **Traceability** | Files are moved and renamed, never silently rewritten, so history stays readable |
 
 <br>
 
