@@ -20,7 +20,7 @@
 ## Research
 
 **Explainable AI for brain tumor MRI.**
-My current work asks which explanation method best highlights the tumor in each image. I study an approach that selects a method per image and needs no tumor mask or segmentation model at inference. The work spans two papers that are not yet published, so the code is private.
+My current work asks which explanation method best highlights the tumor in each image, and how to choose that method automatically. The work spans two papers that are not yet published, so the code is private.
 
 <br>
 
@@ -36,13 +36,13 @@ My current work asks which explanation method best highlights the tumor in each 
 
 ## How I work
 
-My project repositories follow one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md). Active research keeps its working layout until it is archived.
+My project repositories follow one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md). Active research keeps its working layout and README until it is archived.
 
 | | |
 |---|---|
-| **Documentation** | One README format: overview, contents, usage, notes |
+| **Documentation** | Every finished project uses one README format: overview, contents, usage, notes |
 | **Structure** | Archived projects share one layout: `src/` for final code, `experiments/` for ordered attempts, `docs/` for notes |
-| **Data and privacy** | Unpublished research and personal data stay private; archived code keeps its original values, listed in its notes |
+| **Data and privacy** | Unpublished research and personal data stay private; archived code keeps its original hardcoded values, which its notes flag |
 | **Traceability** | Files are moved and renamed, never silently rewritten, so history stays readable |
 
 The two public repositories are early projects from 2023 to 2025, archived as read-only references. Current research code is private.

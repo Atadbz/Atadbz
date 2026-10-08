@@ -6,8 +6,8 @@ The rules my project repositories follow, so any project can be read and reviewe
 
 ## 1. Scope
 
-- **Archived** repositories follow every rule below, including the layout.
-- **Active** repositories follow the README, data, and metadata rules at once. They keep their working layout until they are archived, so ongoing work never breaks.
+- **Archived** repositories follow every rule below, including the layout. Code written before this standard is kept as written (section 7).
+- **Active** repositories follow the data and metadata rules at once. They keep their working layout, and may keep their working README, until they are archived, so ongoing work never breaks.
 
 ## 2. Layout
 
@@ -39,7 +39,7 @@ Every README uses these parts, in this order:
 1. Title and a one-sentence summary
 2. A metadata line: category, year, and stack
 3. **Overview**: the problem, the approach, and what the files contain
-4. **Contents**: one short entry for every top-level file and folder, except the README itself and dotfiles
+4. **Contents**: a brief entry for every top-level file and folder, except the README itself and dotfiles
 5. **Usage**: how to install and run; left out when there is nothing to run
 6. **Notes**: status and known limitations
 7. A closing line that links to this standard
@@ -77,11 +77,11 @@ Categories: `RESEARCH`, `RESEARCH NOTES`, `APPLIED PROJECT`, `HARDWARE PROJECT`,
 | Stack | `python`, `pytorch`, `tensorflow`, `opencv`, `scikit-learn`, `arduino`, `web-application` |
 | Status | `research`, `applied-project`, `coursework`, `archived` |
 
-- Every repository carries exactly one status topic. An archived repository always uses `archived`, whatever its category.
+- Every repository carries exactly one status topic: `archived` when the repository is archived; otherwise `research` for the two research categories, `coursework` for coursework, and `applied-project` for everything else.
 
 ## 9. Status
 
 - **Active**: under development; layout may change.
 - **Archived**: finished or superseded; kept as a read-only reference.
 
-Repositories that existed before this standard were brought in line with it in October 2026. Their code is unchanged: file names, locations, and documentation were updated, and a `requirements.txt` was added where one was missing.
+Archived repositories that existed before this standard were brought in line with it in October 2026. Their code is unchanged: file names, locations, and documentation were updated, and a `requirements.txt` was added to archived Python repositories where one was missing. Active repositories received a standard README where that did not disrupt ongoing work.
