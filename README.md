@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ata-dibazar">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/atadibazar">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="mailto:atadibazar2016@gmail.com">Email</a>
 </p>
@@ -40,10 +40,6 @@ My current work asks which explanation method best highlights the tumor in each 
 |---|---|
 | [Webcam Cheating Detection](https://github.com/Atadbz/Webcam-Cheating-Detection) | Webcam prototypes that flag possible exam cheating with OpenCV, dlib and DeepFace |
 | [RFID Keypad Door Lock](https://github.com/Atadbz/RFID-Keypad-Door-Lock) | Arduino door lock opened by RFID card, keypad or serial code |
-| [Green Signboard Detection](https://github.com/Atadbz/Green-Signboard-Detection) | Signboard detection and alignment in photos using OpenCV color masking and contours |
-| [Histogram Template Matching](https://github.com/Atadbz/Histogram-Template-Matching) | Locating a template image inside a scene by histogram comparison |
-| [Purchase Prediction Trees](https://github.com/Atadbz/Purchase-Prediction-Trees) | Purchase prediction with decision trees and random forests in scikit-learn |
-| [Open Dataset Sources](https://github.com/Atadbz/Open-Dataset-Sources) | Reference list of open dataset websites for machine learning |
 
 These public projects are earlier experiments from 2023 to 2025, kept as references. Private work, described here without code:
 
@@ -51,6 +47,7 @@ These public projects are earlier experiments from 2023 to 2025, kept as referen
 - **Diabetes and dementia risk:** research notes for a planned machine learning study
 - **Institutional research dashboard:** a web application for faculty workload analysis
 - **Research funding analysis:** a data pipeline for university funding records
+- **Smaller experiments:** green signboard detection, histogram template matching, and purchase prediction with decision trees
 
 <br>
 
