@@ -34,6 +34,26 @@ My current work asks which explanation method best highlights the tumor in each 
 
 <br>
 
+## Work
+
+| Project | What it is |
+|---|---|
+| [Webcam Cheating Detection](https://github.com/Atadbz/cheat-detection) | Webcam prototypes that flag possible exam cheating with OpenCV, dlib and DeepFace |
+| [RFID Keypad Door Lock](https://github.com/Atadbz/Arduino---Uni) | Arduino door lock opened by RFID card, keypad or serial code |
+| [Green Signboard Detection](https://github.com/Atadbz/billboard-detection) | Signboard detection and alignment in photos using OpenCV color masking and contours |
+| [Histogram Template Matching](https://github.com/Atadbz/histogram-detection) | Locating a template image inside a scene by histogram comparison |
+| [Purchase Prediction Trees](https://github.com/Atadbz/decision-tree) | Purchase prediction with decision trees and random forests in scikit-learn |
+| [Open Dataset Sources](https://github.com/Atadbz/dataset) | Reference list of open dataset websites for machine learning |
+
+These public projects are earlier experiments from 2023 to 2025, kept as references. Private work, described here without code:
+
+- **Brain tumor XAI routing:** two unpublished papers on choosing explanation methods per image
+- **Diabetes and dementia risk:** research notes for a planned machine learning study
+- **Institutional research dashboard:** a web application for faculty workload analysis
+- **Research funding analysis:** a data pipeline for university funding records
+
+<br>
+
 ## How I work
 
 My project repositories follow one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md). Active research keeps its working layout and README until it is archived.
@@ -44,8 +64,6 @@ My project repositories follow one written [Repository Standard](https://github.
 | **Structure** | Archived projects share one layout: `src/` for final code, `experiments/` for ordered attempts, `docs/` for notes |
 | **Data and privacy** | Unpublished research and personal data stay private; archived code keeps its original hardcoded values, which its notes flag |
 | **Traceability** | Files are moved and renamed, never silently rewritten, so history stays readable |
-
-The two public repositories are early projects from 2023 to 2025, archived as read-only references. Current research code is private.
 
 <br>
 
