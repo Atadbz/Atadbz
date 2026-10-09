@@ -2,7 +2,7 @@
 
 The rules my project repositories follow, so any project can be read and reviewed in the same way.
 
-<sub>VERSION 1.1 · OCTOBER 2026</sub>
+<sub>VERSION 1.2 · OCTOBER 2026</sub>
 
 ## 1. Scope
 
@@ -26,6 +26,7 @@ Each archived repository uses only the folders it needs, always with these names
 
 ## 3. Naming
 
+- Repository names are lowercase words joined by hyphens and say what the project does, for example `rfid-keypad-door-lock`. No abbreviations or course codes.
 - File and folder names are lowercase `snake_case`. Conventional files keep their usual names: `README.md`, `LICENSE`, `.env.example`, and this document.
 - Every file carries the extension that matches its content.
 - Attempts are numbered in the order they were made: `01_baseline.py`, `02_edge_detection.py`.
