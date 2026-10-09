@@ -1,104 +1,60 @@
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/Atadbz/Atadbz/main/name.svg" alt="Ata Dibazar" />
-</h1>
-
-<h3 align="center">AI Engineer</h3>
-
 <p align="center">
-  <em>Specializing in AI, Computer Vision, Robotics</em>
-</p>
-
----
-
-## 🚀 Current Focus
-
-- 🔭 **Current Project**: Diabetic-brain disease diagnosis using deep learning
-- 🌱 **Learning**: Advanced AI architectures 
-- 👯 **Collaboration**: Open to computer vision projects and robotics initiatives
-- 📫 **Contact**: atadiibazar@gmail.com
-
----
-
-## 🛠️ Technology Stack
-
-### AI & Machine Learning
-<p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>
-  </a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="50" height="50"/>
-  </a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="50" height="50"/>
-  </a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="50" height="50"/>
-  </a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="50" height="50"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="50" height="50"/>
-  </a>
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="50" height="50"/>
-  </a>
-</p>
-
-### Systems & Cloud
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="50" height="50"/>
-  </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="50" height="50"/>
-  </a>
-</p>
-
-### Hardware & Design
-<p align="left">
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="50" height="50"/>
-  </a>
-  <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
-    <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="50" height="50"/>
-  </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="50" height="50"/>
-  </a>
-</p>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=atadbz&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="180" alt="streak graph"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=atadbz&show_icons=true&locale=en&layout=compact&theme=dracula" height="180" alt="languages graph"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=atadbz&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"/>
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<p align="center">
-  <a href="https://linkedin.com/in/ata-dibazar" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin"/>
-  </a>
-  <a href="https://instagram.com/ata__dibazar" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram"/>
-  </a>
-
----
-
-<p align="center">
-  <em>💡 Open to collaboration on innovative AI and robotics projects</em>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+    <img src="banner-light.svg" alt="Ata Dibazar, AI Engineer" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=atadbz&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
+  Explainable AI for medical imaging, with a background in computer vision and robotics.
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/ata-dibazar">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:atadibazar2016@gmail.com">Email</a>
+</p>
+
+<br>
+
+## Research
+
+**Explainable AI for brain tumor MRI.**
+My current work asks which explanation method best highlights the tumor in each image, and how to choose that method automatically. The work spans two papers that are not yet published, so the code is private.
+
+<br>
+
+## Focus
+
+| | |
+|---|---|
+| **Explainable AI** | Evaluating and selecting explanation methods for medical image classifiers, currently brain tumor MRI |
+| **Computer vision** | Detection and classification, from classical methods to deep learning |
+| **Robotics and embedded** | Arduino-based control and sensing |
+
+<br>
+
+## How I work
+
+My project repositories follow one written [Repository Standard](https://github.com/Atadbz/Atadbz/blob/main/REPOSITORY_STANDARD.md). Active research keeps its working layout and README until it is archived.
+
+| | |
+|---|---|
+| **Documentation** | Every finished project uses one README format: overview, contents, usage, notes |
+| **Structure** | Archived projects share one layout: `src/` for final code, `experiments/` for ordered attempts, `docs/` for notes |
+| **Data and privacy** | Unpublished research and personal data stay private; archived code keeps its original hardcoded values, which its notes flag |
+| **Traceability** | Files are moved and renamed, never silently rewritten, so history stays readable |
+
+The two public repositories are early projects from 2023 to 2025, archived as read-only references. Current research code is private.
+
+<br>
+
+## Tools
+
+Python, PyTorch, TensorFlow, OpenCV, scikit-learn, pandas, MATLAB, C, C#, Arduino, Blender, Figma.
+
+<br>
+
+<p align="center">
+  <sub>Open to research collaboration and AI engineering roles in medical imaging and explainable AI.</sub>
 </p>
