@@ -26,7 +26,7 @@ Each archived repository uses only the folders it needs, always with these names
 
 ## 3. Naming
 
-- Repository names are lowercase words joined by hyphens and say what the project does, for example `rfid-keypad-door-lock`. No abbreviations or course codes.
+- Repository names use capitalized words joined by hyphens and say what the project does, for example `RFID-Keypad-Door-Lock`. Acronyms stay in capitals; no course codes.
 - File and folder names are lowercase `snake_case`. Conventional files keep their usual names: `README.md`, `LICENSE`, `.env.example`, and this document.
 - Every file carries the extension that matches its content.
 - Attempts are numbered in the order they were made: `01_baseline.py`, `02_edge_detection.py`.
